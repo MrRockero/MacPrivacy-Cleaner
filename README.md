@@ -39,15 +39,15 @@ sudo zsh -c "$(curl -fsSL https://raw.githubusercontent.com/MrRockero/MacPrivacy
 
 ---
 
-## 🛡️ Licencia / License
-
-Este proyecto está bajo la Licencia **MIT**. Libre para modificar, distribuir e inspeccionar.  
-*This project is licensed under the MIT License. Free to modify, distribute, and inspect.*
-
----
-
 ## ⚠️ Descargo de Responsabilidad / Disclaimer
 
 **[ES]** Esta herramienta se proporciona "tal cual" sin garantías de ningún tipo. El usuario asume toda la responsabilidad por la ejecución del script en su sistema. Se recomienda mantener un punto de restauración activo o una copia de seguridad reciente.
 
 **[EN]** This tool is provided "as is" without warranty of any kind. The user assumes all responsibility for running the script on their system. Maintaining an active restore point or a recent system backup is always recommended.
+
+---
+
+## 🛡️ Licencia / License
+
+Este proyecto está bajo la Licencia **MIT**. Libre para modificar, distribuir e inspeccionar.  
+*This project is licensed under the MIT License. Free to modify, distribute, and inspect.*
