@@ -21,18 +21,19 @@
 
 | Módulo / Module | Elementos Eliminados / Limpiados (Items Cleaned) |
 | :--- | :--- |
-| 🌐 **Navegadores y Apps / Browsers & Apps** | Cierre seguro de Chrome, Edge, Brave, Firefox, VLC y QuickTime. |
-| ⚡ **Caché de Sistema / System Cache** | Liberación completa de `~/Library/Caches`. |
-| 📜 **Logs de Usuario / User Logs** | Eliminación de registros de errores e historial en `~/Library/Logs`. |
-| 📂 **Elementos Recientes / Recent Items** | Limpieza de listas en `com.apple.sharedfilelist`. |
-| 🗑️ **Papelera y Red / Trash & Network** | Vaciado forzado de `~/.Trash` y purga de caché DNS (`mDNSResponder`). |
-| 🧠 **Memoria RAM / System RAM** | Purga de memoria RAM inactiva del sistema (`sudo purge`). |
+| 🌐 **Navegadores y Apps / Browsers & Apps** | **[ES]** Cierre seguro de Chrome, Edge, Brave, Firefox, VLC y QuickTime.<br>**[EN]** Safe shutdown of Chrome, Edge, Brave, Firefox, VLC, and QuickTime. |
+| ⚡ **Caché de Sistema / System Cache** | **[ES]** Liberación completa de `~/Library/Caches`.<br>**[EN]** Complete cleanup of `~/Library/Caches`. |
+| 📜 **Logs de Usuario / User Logs** | **[ES]** Eliminación de registros de errores e historial en `~/Library/Logs`.<br>**[EN]** Removal of error logs and history in `~/Library/Logs`. |
+| 📂 **Elementos Recientes / Recent Items** | **[ES]** Limpieza de listas en `com.apple.sharedfilelist`.<br>**[EN]** Clearing recent file lists in `com.apple.sharedfilelist`. |
+| 🗑️ **Papelera y Red / Trash & Network** | **[ES]** Vaciado forzado de `~/.Trash` y purga de caché DNS (`mDNSResponder`).<br>**[EN]** Forced empty of `~/.Trash` and DNS cache purge (`mDNSResponder`). |
+| 🧠 **Memoria RAM / System RAM** | **[ES]** Purga de memoria RAM inactiva del sistema (`sudo purge`).<br>**[EN]** Inactive system RAM memory purge (`sudo purge`). |
 
 ---
 
 ## ⚡ Ejecución Rápida desde la Terminal / Quick Execution via Terminal
 
-Abre la **Terminal** en tu Mac (`Cmd + Espacio` > escribe *Terminal*), pega el siguiente comando y presiona **Enter**:
+**[ES]** Abre la **Terminal** en tu Mac (`Cmd + Espacio` > escribe *Terminal*), pega el siguiente comando y presiona **Enter**:  
+**[EN]** Open the **Terminal** on your Mac (`Cmd + Space` > type *Terminal*), paste the following command, and press **Enter**:
 
 sudo zsh -c "$(curl -fsSL https://raw.githubusercontent.com/MrRockero/MacPrivacy-Cleaner/main/Limpiar_Rastros_Mac.sh)"
 
